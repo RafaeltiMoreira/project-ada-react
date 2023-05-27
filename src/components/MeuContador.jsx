@@ -17,11 +17,11 @@ export default function MeuContador() {
 
     if (contador > 5) {
         return (
-            <div>
+            <div className="container">
                 <h1>Valor muito auto, maior que 5, atual: {contador}</h1>
 
-                <button onClick={aumentar}>Aumentar</button>
-                <button  onClick={diminuir}>Diminuir</button>
+                <button className="myButton" onClick={aumentar}>Aumentar</button>
+                <button className="myButton2"onClick={diminuir}>Diminuir</button>
             </div>
         )
     }
