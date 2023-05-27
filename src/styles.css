@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #181c23;
+    color: #fffbf0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.myButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: #181326;
+    border-radius: 5px;
+    background-color: #a6f750;
+}
+
+.myButton2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: #181326;
+    border-radius: 5px;
+    background-color: #f75850;
+}
